@@ -1,0 +1,47 @@
+{
+    "catalogo": "SECTOR_RENTA",
+    "descripcion": "Clasificación del sector económico del contribuyente para efectos del Impuesto sobre la Renta",
+    "valores": [
+        {
+            "codigo": "0",
+            "descripcion": "Cuando se trate de periodos tributarios anteriores a febrero de 2024",
+            "observacion": "Uso transitorio para reportes de periodos previos a la actualización normativa"
+        },
+        {
+            "codigo": "1",
+            "descripcion": "Industria"
+        },
+        {
+            "codigo": "2",
+            "descripcion": "Comercio"
+        },
+        {
+            "codigo": "3",
+            "descripcion": "Agropecuaria"
+        },
+        {
+            "codigo": "4",
+            "descripcion": "Servicios, Profesiones, Artes y Oficios"
+        },
+        {
+            "codigo": "8",
+            "descripcion": "Operaciones informadas en más de un anexo"
+        },
+        {
+            "codigo": "9",
+            "descripcion": "Excepciones",
+            "detalle": [
+                "Instituciones públicas",
+                "No inscritos a IVA",
+                "Operaciones no deducibles para renta",
+                "Otros casos especiales definidos por la Administración Tributaria"
+            ]
+        }
+    ],
+    "fuente_oficial": {
+        "institucion": "Ministerio de Hacienda de El Salvador",
+        "documento": "Catálogos del Sistema de Transmisión DTE",
+        "referencia": "Catálogos- Sistema de Transmisión - versión 1.1",
+        "url": "https://factura.gob.sv/download/2-catalogos-sistema-de-facturacion-contiene-el-detalle-de-todos-los-catalogos-requeridos-para-el-desarrollo-de-la-plataforma-de-transmision-de-documentos-tributarios-electronicos/?wpdmdl=4725&refresh=69b2fe8eb5ded1773338254"
+    }
+}
