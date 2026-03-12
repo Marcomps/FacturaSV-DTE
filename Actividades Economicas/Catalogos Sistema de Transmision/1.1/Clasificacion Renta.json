@@ -1,0 +1,42 @@
+{
+  "catalogo": "CLASIFICACION_RENTA",
+  "descripcion": "Clasificación de operaciones para efectos del Impuesto sobre la Renta en anexos o reportes informativos",
+  "valores": [
+    {
+      "codigo": "0",
+      "descripcion": "Cuando se trate de periodos tributarios anteriores a febrero de 2024",
+      "observacion": "Uso transitorio para reportes de periodos previos a la actualización normativa"
+    },
+    {
+      "codigo": "1",
+      "descripcion": "Costo"
+    },
+    {
+      "codigo": "2",
+      "descripcion": "Gasto"
+    },
+    {
+      "codigo": "8",
+      "descripcion": "Operaciones informadas en más de un anexo"
+    },
+    {
+      "codigo": "9",
+      "descripcion": "Excepciones",
+      "detalle": [
+        "Instituciones públicas",
+        "No inscritos a IVA",
+        "Operaciones no deducibles para renta",
+        "Otros casos especiales definidos por la Administración Tributaria"
+      ]
+    }
+  ],
+  "notas": [
+    "El código 0 aplica únicamente para periodos tributarios anteriores a febrero de 2024.",
+    "Los códigos 1 y 2 se utilizan para identificar la naturaleza deducible de la operación en renta."
+  ],
+  "fuente_oficial": {
+    "institucion": "Ministerio de Hacienda de El Salvador",
+    "documento": "Catálogos del Sistema de Transmisión DTE",
+    "referencia": "Catálogos- Sistema de Transmisión - versión 1.1"
+  }
+}
